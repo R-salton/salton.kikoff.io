@@ -3,9 +3,20 @@
     padding: 0;
 }
 
+header {
+    width: 100%;
+    height: 25%;
+}
+
+.mybody {
+    width: 100%;
+    height: 50%;
+}
+
 body {
     padding: 1%;
     margin: 0;
+    width: 98%;
 }
 
 .main {
@@ -22,7 +33,23 @@ body {
 }
 
 .list {
-    margin-bottom: 100px;
+    margin-bottom: 0.2%;
+    width: 98.5%;
+    height: 10%;
+    margin-top: 2.6%;
+}
+
+.title img {
+    width: 20%;
+    height: 100%;
+}
+
+.title {
+    width: 98.5%;
+    height: 87%;
+    float: left;
+    background-color: rgb(255, 0, 0);
+    opacity: 60%;
 }
 
 .list h1 {
@@ -33,32 +60,65 @@ body {
     margin-bottom: 30px;
 }
 
+.table1 {
+    height: 13%;
+    width: 100%;
+}
+
+table {
+    width: 98.5%;
+    margin-top: 8.2%;
+    height: 10%;
+    margin-right: 2%;
+}
+
+th {
+    color: rgb(7, 172, 248);
+    background-color: white;
+    cursor: pointer;
+    font-size: 1.8em;
+}
+
+th:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+tr {
+    height: 50px;
+    width: 100%;
+}
+
+.table1 a {
+    text-decoration: none;
+    color: rgb(7, 172, 248);
+}
+
 .manu-bar {
     float: left;
-    width: 100%;
-    height: 80%;
+    width: 98.5%;
+    height: 100px;
     background-size: cover;
-    padding-top: 10px;
+    padding-top: 0.1%;
     padding-right: 10px;
-    padding-left: 5px;
+    padding-left: 1%;
     padding-inline-end: 20px;
     background-image: url(crog.png);
     background-size: cover;
     display: block;
-    margin: 10px;
     background-attachment: fixed;
     background-size: cover;
-    animation: slide 10s infinite;
+    animation: slide 16s infinite;
     position: fixed;
-    transition: slide 4s ease-in;
+    transition: slide 3s;
 }
 
 .logo1 {
-    width: 550px;
-    height: 100px;
+    width: 50%;
+    height: 140%;
     position: inherit;
     margin-left: 200px;
-    padding-bottom: 0%;
+    padding-bottom: 80px;
 }
 
 @keyframes slide {
@@ -66,45 +126,42 @@ body {
         background-image: url('euro.jpg');
         background-size: cover;
         background-position: center;
-        height: 150px;
-        width: 1250px;
+        height: 20%;
+        width: 96.2%;
     }
     35% {
         background-image: url('lionel.jpg');
         background-size: cover;
         background-position: center;
-        height: 150px;
-        width: 1250px;
+        height: 20%;
+        width: 96.2%;
     }
     55% {
         background-image: url('cr2.jpg ');
         background-size: cover;
         background-position: center;
-        height: 150px;
-        width: 1250px;
+        height: 20%;
+        width: 96.2%;
     }
     75% {
         background-image: url('euro.jpg ');
         background-size: cover;
         background-position: center;
-        height: 150px;
-        width: 1250px;
+        height: 20%;
+        width: 96.2%;
     }
-    100% {
+    20% {
         background-image: url('lionel2.jpg ');
         background-size: cover;
         background-position: center;
-        height: 150px;
-        width: 1250px;
+        height: 20%;
+        width: 96.2%;
     }
 }
 
-.title {
-    font-size: 30px;
-    color: rgb(7, 250, 47);
-    text-align: left;
-    margin-left: 10px;
-    font-family: 'Copperplate Gothic Bold';
+.logos {
+    width: 100%;
+    height: 65%;
 }
 
 ul {
@@ -116,13 +173,12 @@ ul {
 
 ul li {
     float: left;
-    width: 150px;
+    width: 13.6%;
     height: 40px;
     background-color: rgb(12, 135, 218);
     text-align: center;
-    line-height: 40px;
+    line-height: 40%;
     font-size: 20px;
-    margin-top: 0px;
     text-align: center;
 }
 
@@ -133,29 +189,38 @@ ul li a {
     cursor: pointer;
     float: left;
     text-align: center;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 10%;
 }
 
 ul li a:hover {
     background-color: white;
     color: rgb(18, 19, 19);
-    width: 150px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
 ul li ul li {
     display: none;
     color: rgb(242, 242, 248);
     background-color: rgb(94, 94, 91);
+    width: 100%;
+    height: 40px;
     text-align: center;
 }
 
 ul li:hover ul li {
-    display: block;
+    display: inline-block;
     color: solid rgb(242, 242, 248);
     background-color: rgb(99, 99, 94);
+    text-align: center;
 }
 
 ul li a img {
     float: left;
+    height: 30%;
 }
 
 .logo h1 {
@@ -164,19 +229,18 @@ ul li a img {
 }
 
 .content1 {
-    width: 300px;
-    height: 600px;
+    width: 25%;
+    height: 500px;
     color: aqua;
     position: inherit;
     float: left;
-    margin-left: 10px;
-    margin-top: 180px;
+    margin-left: 0.5%;
+    margin-top: 12.5%;
     background-image: url(shoe2.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     animation: slide2 3s inherit;
     text-align: center;
-    align-items: center;
 }
 
 .content1 form {
@@ -186,13 +250,12 @@ ul li a img {
     background-size: cover;
     align-items: center;
     border-radius: 20%;
-    width: 200px;
-    margin-left: 50px;
-    height: 300px;
+    width: 80%;
+    margin-left: 5%;
+    height: 50%;
     font-family: arial;
     font-size: 13px;
-    margin-top: 2px;
-    position: fixed;
+    margin-top: 1px;
 }
 
 .content1 input {
@@ -229,27 +292,25 @@ ul li a img {
 
 .main-co {
     float: left;
-    width: 650px;
-    height: 600px;
-    margin-left: 10px;
-    margin-top: 180px;
+    width: 40%;
+    height: 500px;
+    margin-left: 0.8%;
+    margin-top: 12.5%;
     position: inherit;
     background-image: url(white.png);
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
-    overflow-y: scroll inherit;
+    overflow-y: scroll;
     text-align: center;
-    padding: 10px;
+    padding: 0.5%;
 }
 
 .main-co marquee {
     position: inherit;
-    width: 645px;
+    width: 100%;
     background-color: rgb(6, 92, 107);
     background-position: center;
-    margin-right: 2px;
-    padding-right: 2px;
     color: rgb(253, 251, 251);
 }
 
@@ -264,34 +325,34 @@ ul li a img {
 
 .right-co {
     float: left;
-    width: 340px;
-    background-image: url(messi.gif);
-    margin-left: 10px;
-    height: 600px;
-    margin-top: 180px;
-    color: white;
+    width: 30%;
+    background-color: white;
+    margin-left: 0.1%;
+    height: 500px;
+    margin-top: 12.5%;
+    color: black;
     mask-position: center;
     align-items: inherit;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .right-co a {
     text-decoration: none;
-    color: rgb(245, 226, 56);
+    color: rgb(219, 42, 42);
 }
 
-.right-items {
-    margin-right: 5px;
-    margin-top: 2px;
+.right-co p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     background-color: rgb(233, 70, 20);
 }
 
 .right-co img {
-    width: 330px;
-    height: 180px;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 85%;
+    height: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 body {
@@ -308,8 +369,9 @@ body {
     background-image: url(foot.jpg);
     background-position: center;
     background-size: cover;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-bottom: 0.8%;
+    margin-top: 0.2%;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+    padding-top: 1%;
 }
