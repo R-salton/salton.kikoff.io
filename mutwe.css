@@ -66,7 +66,7 @@ body {
 }
 
 table {
-    width: 90%;
+    width: 98%;
     margin-top: 8.2%;
     height: 10%;
     margin-right: 2%;
@@ -189,12 +189,12 @@ tr {
     background-attachment: fixed;
     background-size: cover;
     align-items: center;
-    border-radius: 20%;
+    border-radius: 15%;
     width: 80%;
     margin-left: 5%;
-    height: 50%;
+    height: 30%;
     font-family: arial;
-    font-size: 13px;
+    font-size: 11px;
     margin-top: 1px;
 }
 
@@ -211,7 +211,7 @@ tr {
 
 .main-co {
     float: left;
-    width: 50%;
+    width: 78.2%;
     height: 400px;
     margin-left: 0.05%;
     margin-top: 4%;
@@ -283,8 +283,8 @@ body {
 
 .footer {
     float: left;
-    width: 91%;
-    height: 150px;
+    width: 100%;
+    height: 100px;
     background-image: url(foot.jpg);
     background-position: center;
     background-size: cover;
