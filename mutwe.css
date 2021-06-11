@@ -231,6 +231,7 @@ tr {
     background-position: center;
     color: rgb(253, 251, 251);
     font-size: 10px;
+    position: fixed;
 }
 
 .main-co a {
