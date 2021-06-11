@@ -63,6 +63,7 @@ body {
 .table1 {
     height: 13%;
     width: 100%;
+    position: fixed;
 }
 
 table {
@@ -98,7 +99,7 @@ tr {
 .manu-bar {
     float: left;
     width: 98.5%;
-    height: 60px;
+    height: 15%;
     background-size: cover;
     padding-top: 0.1%;
     padding-right: 0.7%;
@@ -110,6 +111,7 @@ tr {
     background-size: cover;
     animation: slide 16s infinite;
     transition: slide 3s;
+    position: absolute;
 }
 
 .logo1 {
@@ -224,15 +226,22 @@ tr {
     padding: 0.5%;
 }
 
-.main-co marquee {
+.table1 marquee {
     position: inherit;
-    width: 100%;
+    width: 90%;
     background-color: rgb(6, 92, 107);
     background-position: center;
     color: rgb(253, 251, 251);
     font-size: 10px;
+    margin-right: 20%;
+    padding-right: 20%;
+    float: left;
+   
 }
-
+.table1 marquee:hover{
+    color: rgb(253, 251, 251);
+    background-color: rgb(6, 92, 107);
+}
 .main-co a {
     text-decoration: none;
     color: rgb(167, 67, 67);
