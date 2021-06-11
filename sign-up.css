@@ -191,7 +191,7 @@ tr {
     background-attachment: fixed;
     background-size: cover;
     align-items: center;
-    border-radius: 20%;
+    border-radius: 5%;
     width: 80%;
     margin-left: 5%;
     height: 50%;
@@ -201,10 +201,11 @@ tr {
 }
 
 .content1 input {
-    background-color: rgb(72, 201, 240);
+    background-color: rgb(250, 152, 152);
     color: white;
     border: white solid;
     margin-top: 5px;
+    width: 20px;
 }
 
 .content1 img {
@@ -229,12 +230,13 @@ tr {
 .table1 marquee {
     position: inherit;
     width: 90%;
+    height: 10%;
     background-color: rgb(6, 92, 107);
     background-position: center;
     color: rgb(253, 251, 251);
     font-size: 10px;
-    margin-right: 20%;
-    padding-right: 20%;
+    margin-bottom: 20%;
+    padding: 20%;
     float: left;
    
 }
