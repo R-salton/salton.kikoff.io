@@ -1,0 +1,299 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 25%;
+}
+
+.mybody {
+    width: 100%;
+    height: 50%;
+}
+
+body {
+    padding: 1%;
+    margin: 0;
+    width: 98%;
+}
+
+.main {
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    float: left;
+    padding-top: 1%;
+    position: top;
+    height: 50%;
+    border-radius: 50%;
+}
+
+.list {
+    margin-bottom: 0.2%;
+    width: 98.5%;
+    height: 10%;
+    margin-top: 2.6%;
+}
+
+.title img {
+    width: 20%;
+    height: 100%;
+}
+
+.title {
+    width: 98.5%;
+    height: 87%;
+    float: left;
+    background-color: rgb(255, 0, 0);
+    opacity: 60%;
+}
+
+.list h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.table1 {
+    height: 13%;
+    width: 100%;
+}
+
+table {
+    width: 98%;
+    margin-top: 8.2%;
+    height: 10%;
+    margin-right: 2%;
+    position: fixed;
+}
+
+th {
+    color: rgb(7, 172, 248);
+    background-color: white;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+th:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+tr {
+    height: 30px;
+    width: 100%;
+}
+
+.table1 a {
+    text-decoration: none;
+    color: rgb(7, 172, 248);
+}
+
+.manu-bar {
+    float: left;
+    width: 98.5%;
+    height: 60px;
+    background-size: cover;
+    padding-top: 0.1%;
+    padding-right: 0.7%;
+    padding-left: 0.7%;
+    background-image: url(crog.png);
+    background-size: cover;
+    display: block;
+    background-attachment: fixed;
+    background-size: cover;
+    animation: slide 16s infinite;
+    transition: slide 3s;
+}
+
+.logo1 {
+    width: 30%;
+    height: 100%;
+    position: inherit;
+    margin-left: 150px;
+    padding-bottom: 60px;
+}
+
+@keyframes slide {
+    15% {
+        background-image: url('euro.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 15%;
+        width: 86.2%;
+    }
+    35% {
+        background-image: url('lionel.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 15%;
+        width: 86.2%;
+    }
+    55% {
+        background-image: url('cr2.jpg ');
+        background-size: cover;
+        background-position: center;
+        height: 15%;
+        width: 86.2%;
+    }
+    75% {
+        background-image: url('euro.jpg ');
+        background-size: cover;
+        background-position: center;
+        height: 15%;
+        width: 86.2%;
+    }
+    20% {
+        background-image: url('lionel2.jpg ');
+        background-size: cover;
+        background-position: center;
+        height: 15%;
+        width: 86.2%;
+    }
+}
+
+.logos {
+    width: 100%;
+    height: 55%;
+}
+
+.logo h1 {
+    color: white;
+    text-align: center;
+}
+
+.content1 {
+    width: 20%;
+    height: 400px;
+    color: aqua;
+    position: inherit;
+    float: left;
+    margin-left: 0.5%;
+    margin-top: 4%;
+    background-image: url(shoe2.jpg);
+    background-position: center;
+    background-size: contain;
+    animation: slide2 3s inherit;
+    text-align: center;
+}
+
+.content1 form {
+    background-image: url(ground.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    border-radius: 15%;
+    width: 80%;
+    margin-left: 5%;
+    height: 30%;
+    font-family: arial;
+    font-size: 11px;
+    margin-top: 1px;
+}
+
+.content1 input {
+    background-color: rgb(72, 201, 240);
+    color: white;
+    border: white solid;
+    margin-top: 5px;
+}
+
+.content1 img {
+    border-radius: 50%;
+}
+
+.main-co {
+    float: left;
+    width: 78.2%;
+    height: 400px;
+    margin-left: 0.05%;
+    margin-top: 4%;
+    position: inherit;
+    background-image: url(white.png);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 0.5%;
+}
+
+.main-co marquee {
+    position: inherit;
+    width: 100%;
+    background-color: rgb(6, 92, 107);
+    background-position: center;
+    color: rgb(253, 251, 251);
+    font-size: 10px;
+    position: fixed;
+}
+
+.main-co a {
+    text-decoration: none;
+    color: rgb(167, 67, 67);
+}
+
+.main-co h1 {
+    font-family: arial;
+}
+
+.right-co {
+    float: left;
+    width: 20%;
+    background-color: white;
+    margin-left: 0.05%;
+    height: 400px;
+    margin-top: 4%;
+    color: black;
+    mask-position: center;
+    align-items: inherit;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.right-co a {
+    text-decoration: none;
+    color: rgb(219, 42, 42);
+}
+
+.right-co p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(233, 70, 20);
+}
+
+.right-co img {
+    width: 85%;
+    height: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url(cr.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.footer {
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-image: url(foot.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0.8%;
+    margin-top: 0.2%;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+    padding-top: 0.5%;
+}
