@@ -226,6 +226,20 @@ tr {
     padding: 0.5%;
 }
 
+.main-co table {
+    width: 77%;
+   
+    height: 400px;
+    margin-right: 0.07%;
+    position: inherit;
+}
+.main-co th {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    font-size: 10px;
+}
+
 .main-co marquee {
     position: inherit;
     width: 100%;
